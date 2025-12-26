@@ -1,0 +1,98 @@
+```
+# Unity-specific ignores
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.meta
+!ProjectSettings/ProjectVersion.txt
+
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Compiled and build artifacts
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.exe.config
+*.userprefs
+
+# Logs
+*.log
+**/Logs/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
